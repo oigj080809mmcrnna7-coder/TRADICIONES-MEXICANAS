@@ -114,28 +114,20 @@
     <footer>
         <p>© 2025 Tradiciones Mexicanas | Sitio educativo</p>
     </footer>
+<form
+  action="https://formspree.io/f/xrbrerlq"
+  method="POST"
+>
+  <label>
+    ingresa tu email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    coloca tu mensajs:
+    <textarea name="message"></textarea>
+  </label>
+  <button type="submit">enviar</button>
+</form>
 </body>
-        <h3 style="margin-top:40px; color:#ffffff;">formulario</h3>
-        <form action="guardar_comentario.php" method="POST" style="background:#fff; padding:20px; border-radius:10px; max-width:400px; margin:auto; text-align:left;">
-            <label>Nombre:</label>
-            <input type="text" name="nombre" required style="width:100%; padding:8px; margin-top:5px;">
-
-            <label>Correo electrónico:</label>
-            <input type="email" name="correo" required style="width:100%; padding:8px; margin-top:5px;">
-
-            <label>Calificación del sitio:</label>
-            <select name="calificacion" required style="width:100%; padding:8px; margin-top:5px;">
-                <option value="5">Excelente</option>
-                <option value="4">Muy Bueno</option>
-                <option value="3">Bueno</option>
-                <option value="2">Regular</option>
-                <option value="1">Malo</option>
-            </select>
-
-            <label>Comentarios:</label>
-            <textarea name="comentario" rows="4" required style="width:100%; padding:8px; margin-top:5px;"></textarea>
-
-            <button type="submit" style="background:#9679da; color:#dac3ee; border:none; padding:10px; width:100%; margin-top:15px; cursor:pointer;">Enviar</button>
-        </form>
 </html>
 
