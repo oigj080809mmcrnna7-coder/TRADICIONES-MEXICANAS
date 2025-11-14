@@ -8,12 +8,12 @@
         body {
             font-family: 'Poppins', sans-serif;
             margin: 0;
-            background-color: #fff3e0;
-            color: #333;
+            background-color: #f39a35;
+            color: #000000;
         }
 
         header {
-            background-color: #e63946;
+            background-color: #8e7dee;
             color: white;
             text-align: center;
             padding: 20px;
@@ -21,7 +21,7 @@
 
         nav {
             text-align: center;
-            background-color: #ffb703;
+            background-color: #544f99;
             padding: 10px 0;
         }
 
@@ -38,7 +38,7 @@
         }
 
         nav a:hover {
-            background-color: #fb8500;
+            background-color: #c3c2f0;
             color: white;
         }
 
@@ -51,7 +51,7 @@
 
         section h2 {
             text-align: center;
-            color: #cc1212;
+            color: #3a069b;
         }
 
         img {
@@ -62,7 +62,7 @@
         }
 
         footer {
-            background-color: #e63946;
+            background-color: #9d73d4;
             color: white;
             text-align: center;
             padding: 15px;
@@ -99,7 +99,7 @@
 
         <p>En 2008, la UNESCO declaró el Día de Muertos como Patrimonio Cultural Inmaterial de la Humanidad.</p>
 
-        <img src="https://traveler.marriott.com/es/wp-content/uploads/sites/2/2021/10/GI-1182254539-Dia-De-Muertos-1920x1080.jpg" alt="Ofrenda de Día de Muertos">
+        <img src="https://traveler.marriott.com/es/wp-content/uploads/sites/2/2021/10/GI-1182254539-Dia-De-Muertos-1920x1080.jpg" alt="dia de muertos" style="width:10cm; border-radius:10px; margin-top:20px;">
     </section>
 
     <section id="catrina">
@@ -108,11 +108,25 @@
 
         <p>El grabado original se tituló <strong>“La Calavera Garbancera”</strong>, refiriéndose a las personas que renegaban de su herencia indígena y pretendían ser europeas. Años después, Diego Rivera inmortalizó esta figura en su mural <em>“Sueño de una tarde dominical en la Alameda Central”</em>, dándole el nombre con el que hoy se le conoce: <strong>La Catrina</strong>.</p>
 
-        <img src="https://i.pinimg.com/736x/46/70/47/467047b16e18b991b05a354d54c3b932.jpg" alt="La Catrina">
+        <img src="https://i.pinimg.com/736x/46/70/47/467047b16e18b991b05a354d54c3b932.jpg" alt="La Catrina" style="width:6cm; border-radius:10px; margin-top:20px;">>
     </section>
 
     <footer>
         <p>© 2025 Tradiciones Mexicanas | Sitio educativo</p>
     </footer>
+<form
+  action="https://formspree.io/f/xrbrerlq"
+  method="POST"
+>
+  <label>
+    ingresa tu email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    coloca tu mensajs:
+    <textarea name="message"></textarea>
+  </label>
+  <button type="submit">enviar</button>
+</form>
 </body>
 </html>
